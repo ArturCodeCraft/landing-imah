@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--======================= favicon =======================-->
+	<!-- Convert .svg to .ico, here https://cloudconvert.com/svg-to-ico -->
+	<link rel="shortcut icon" href="img/logo-favicon.svg" type="image/x-icon">
+
+	<!--======================= css =======================-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--======================= name =======================-->
+	<title>Imah</title>
+
+	<!--======================= brief informative description =======================-->
+	<!-- usually write a meta-description of 150 to 160 characters -->
+	<meta name="description" content="
+		ArturCodeCraft is a web development studio.
+		I create beautiful and functional websites using modern technologies.
+		Ready for individual solutions for your business.">
+
+	<!--======================= author =======================-->
+	<meta name="author" content="ArturCodeCraft">
+</head>
+
+<body>
+	<div class="wrapper">
+		<!--======================= header =======================-->
+		<header class="header" id="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/header-logo.svg" alt="logo">
+				</a>
+
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#home" class="menu__link _active-link">HOME</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#about" class="menu__link">ABOUT US</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#services" class="menu__link">SERVICES</a>
+							</li>
+
+							<li class="menu__item">
+								<a href="#blog" class="menu__link">BLOG</a>
+							</li>
+						</ul>
+
+						<div class="menu__buttons">
+							<a href="#" class="menu__button _btn _btn-white">
+								<span>CONTACT US</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7 17L17 7" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M7 7H17V17" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="menu__actions">
+						<!-- icon menu -->
+						<button class="menu__icon" type="button">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!--======================= main =======================-->
+		<main class="page">
+			<!--======================= home =======================-->
+			<section class="page__main main" id="home">
+				<div class="main__container">
+					<div class="main__data">
+						<h1 class="main__title _title-h1">
+							Create a modern and
+							unique design your
+							dream
+						</h1>
+
+						<div class="main__description">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit. Adipiscing dui tellus commodo convallis. Auctor
+								eget orci pharetra non. Integer lorem in scelerisque
+								tortor dui tempor
+							</p>
+						</div>
+
+						<div class="main__action">
+							<a href="#" class="main__button _btn">
+								<span>VIEW A PROJECT</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M5 12H19" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M12 5L19 12L12 19" stroke="black" stroke-width="2" stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<!-- Slider main container -->
+					<div data-slide-left class="main__swiper swiper-main">
+
+						<!-- Additional required wrapper -->
+						<div class="swiper-main__wrapper">
+
+							<!-- Slides -->
+							<div class="swiper-main__slide _slide-active _ibg">
+								<div class="swiper-main__image">
+									<img src="img/swiper-main-1.jpg" alt="swiper-main image">
+								</div>
+							</div>
+
+							<div class="swiper-main__slide _ibg">
+								<div class="swiper-main__image">
+									<img src="img/swiper-main-2.jpg" alt="swiper-main image">
+								</div>
+							</div>
+
+							<div class="swiper-main__slide _ibg">
+								<div class="swiper-main__image">
+									<img src="img/swiper-main-3.jpg" alt="swiper-main image">
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-main__actions">
+							<!-- If we need navigation buttons -->
+							<button class="swiper-main__button-next">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+
+							<button class="swiper-main__button-prev">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= partners =======================-->
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<div data-slide-right class="partners__data">
+						<h4 class="partners__title">
+							Trusted by 75+ Partners
+						</h4>
+					</div>
+
+					<!-- Slider main container -->
+					<div data-slide-up class="partners__swiper swiper-partners">
+
+						<!-- Additional required wrapper -->
+						<div class="swiper-partners__wrapper">
+
+							<!-- Slides -->
+							<div class="swiper-partners__slide _slide-active">
+								<div class="swiper-partners__image">
+									<img src="img/partners-1.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-2.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-3.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-1.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-2.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-3.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide _slide-active">
+								<div class="swiper-partners__image">
+									<img src="img/partners-1.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-2.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-3.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide _slide-active">
+								<div class="swiper-partners__image">
+									<img src="img/partners-1.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-2.png" alt="partners image">
+								</div>
+							</div>
+
+							<div class="swiper-partners__slide">
+								<div class="swiper-partners__image">
+									<img src="img/partners-3.png" alt="partners image">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= about =======================-->
+			<section class="page__about about" id="about">
+				<div class="about__container">
+					<div class="about__content">
+						<div data-slide-right class="about__image _ibg">
+							<img src="img/about-1.jpg" alt="about image">
+						</div>
+
+						<div data-slide-up class="about__image _ibg">
+							<img src="img/about-2.jpg" alt="about image">
+						</div>
+
+						<div data-slide-down class="about__info">
+							<article class="about__counter">
+								<div class="about__number">
+									<span>10</span>
+								</div>
+
+								<div class="about__text">
+									<span>Years</span>
+								</div>
+							</article>
+
+							<div class="about__decor"></div>
+
+							<article class="about__counter">
+								<div class="about__number">
+									<span>200+</span>
+								</div>
+
+								<div class="about__text">
+									<span>Projects</span>
+								</div>
+							</article>
+
+							<div class="about__decor"></div>
+
+							<article class="about__counter">
+								<div class="about__number">
+									<span>75</span>
+								</div>
+
+								<div class="about__text">
+									<span>Partners</span>
+								</div>
+							</article>
+						</div>
+					</div>
+
+					<div class="about__data">
+						<div data-slide-left class="about__subtitle _subtitle _left-line">
+							<span>Hello there</span>
+						</div>
+
+						<h2 data-slide-left class="about__title _title-h2">
+							We work professionally
+							and wholeheartedly
+						</h2>
+
+						<div data-slide-left class="about__description">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Adipiscing dui tellus commodo convallis. Auctor eget orci pharetra
+								non. Integer lorem in scelerisque tortor dui tempor, volutpat
+								viverra faucibus. Sagittis maecenas tincidunt at purus. Amet non
+								vel elit aliquet id dolor risus imperdiet vitae. Amet, sagittis
+								mauris morbi erat velit id nullam. Lorem ipsum dolor sit amet,
+								consectetur adipiscing elit. Adipiscing dui tellus commodo
+								convallis.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= services =======================-->
+			<section class="page__services services" id="services">
+				<div class="services__container">
+					<div class="services__data">
+						<div data-slide-right class="services__subtitle _subtitle">
+							<span>Services</span>
+						</div>
+
+						<h2 data-slide-right class="services__title _title-h2">
+							Our capacity to help make your wishes come true
+						</h2>
+					</div>
+
+					<div class="services__content">
+						<article data-slide-left class="services__card card-services">
+							<a href="#" class="card-services__image _ibg">
+								<img src="img/services-1.jpg" alt="services image">
+							</a>
+
+							<div class="card-services__data">
+								<a href="#" class="card-services__title">
+									Interior Design
+								</a>
+							</div>
+						</article>
+
+						<article data-slide-right class="services__card card-services">
+							<a href="#" class="card-services__image _ibg">
+								<img src="img/services-2.jpg" alt="services image">
+							</a>
+
+							<div class="card-services__data">
+								<a href="#" class="card-services__title">
+									Architecture
+								</a>
+							</div>
+						</article>
+
+						<article data-slide-left class="services__card card-services">
+							<a href="#" class="card-services__image _ibg">
+								<img src="img/services-3.jpg" alt="services image">
+							</a>
+
+							<div class="card-services__data">
+								<a href="#" class="card-services__title">
+									Furniture Design
+								</a>
+							</div>
+						</article>
+
+					</div>
+				</div>
+			</section>
+
+			<!--======================= project =======================-->
+			<section class="page__project project">
+				<div class="project__container">
+					<div class="project__data">
+						<div data-slide-right class="project__subtitle _subtitle">
+							<span>Our Project</span>
+						</div>
+
+						<h2 data-slide-right class="project__title _title-h2">
+							Our latest projects
+						</h2>
+					</div>
+
+					<!-- Slider main container -->
+					<div data-slide-left class="project__swiper swiper-project">
+
+						<!-- Additional required wrapper -->
+						<div class="swiper-project__wrapper">
+
+							<!-- Slides -->
+							<div class="swiper-project__slide _slide-active _ibg">
+								<div class="swiper-project__image">
+									<img src="img/swiper-project-1.jpg" alt="swiper-project image">
+								</div>
+
+								<div class="swiper-project__data">
+									<a href="#" class="swiper-project__title">
+										Interior Design
+									</a>
+
+									<div class="swiper-project__description">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit.
+											Adipiscing dui tellus commodo
+											convallis. Auctor eget orci
+											pharetra non.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-project__slide _ibg">
+								<div class="swiper-project__image">
+									<img src="img/swiper-project-2.jpg" alt="swiper-project image">
+								</div>
+
+								<div class="swiper-project__data">
+									<a href="#" class="swiper-project__title">
+										Interior Design
+									</a>
+
+									<div class="swiper-project__description">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit.
+											Adipiscing dui tellus commodo
+											convallis. Auctor eget orci
+											pharetra non.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-project__slide _ibg">
+								<div class="swiper-project__image">
+									<img src="img/swiper-project-3.jpg" alt="swiper-project image">
+								</div>
+
+								<div class="swiper-project__data">
+									<a href="#" class="swiper-project__title">
+										Interior Design
+									</a>
+
+									<div class="swiper-project__description">
+										<p>
+											Lorem ipsum dolor sit amet,
+											consectetur adipiscing elit.
+											Adipiscing dui tellus commodo
+											convallis. Auctor eget orci
+											pharetra non.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-project__actions">
+							<!-- If we need navigation buttons -->
+							<button class="swiper-project__button-next">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+
+							<button class="swiper-project__button-prev">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= testimonial =======================-->
+			<section class="page__testimonial testimonial">
+				<div class="testimonial__container">
+					<div class="testimonial__data">
+						<div data-slide-right class="testimonial__subtitle _subtitle">
+							<span>Testimonial</span>
+						</div>
+
+						<h2 data-slide-right class="testimonial__title _title-h2">
+							What Our Clients Say
+						</h2>
+					</div>
+
+					<!-- Slider main container -->
+					<div data-slide-left class="testimonial__swiper swiper-testimonial">
+
+						<!-- Additional required wrapper -->
+						<div class="swiper-testimonial__wrapper">
+
+							<!-- Slides -->
+							<div class="swiper-testimonial__slide _slide-active">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-1.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											Menta Nia
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-testimonial__slide">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-2.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											Sannad
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-testimonial__slide">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-3.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											George
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-testimonial__slide">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-1.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											Menta Nia
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-testimonial__slide">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-2.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											Sannad
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+
+							<div class="swiper-testimonial__slide">
+								<div class="swiper-testimonial__account account-testimonial">
+									<a href="#" class="account-testimonial__image _ibg">
+										<img src="img/testimonial-3.jpg" alt="testimonial image">
+									</a>
+
+									<div class="account-testimonial__data">
+										<a href="#" class="account-testimonial__title">
+											George
+										</a>
+
+										<div class="account-testimonial__subtitle">
+											<a href="#">
+												Company Name
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-testimonial__data">
+									<p>
+										“ Lorem ipsum dolor sit amet, conse
+										ctetur adipiscing elit. Adipiscing
+										dui tellus commodo convallis.
+										Auctor eget orci pharetra non
+										Adipiscing dui tellus commodo
+										convallis. Auctor eget orci
+										pharetra non “
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-testimonial__actions">
+							<!-- If we need navigation buttons -->
+							<button class="swiper-testimonial__button-next">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M9 18L15 12L9 6" stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+
+							<button class="swiper-testimonial__button-prev">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<g opacity="0.5">
+										<path d="M15 18L9 12L15 6" stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</g>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= contact =======================-->
+			<section class="page__contact contact">
+				<div class="contact__container">
+					<div class="contact__data">
+						<h2 data-slide-right class="contact__title _title-h2">
+							Have A Question ? Start
+							Consultation Now
+						</h2>
+
+						<div data-slide-right class="contact__description">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								Adipiscing dui tellus commodo convallis.
+							</p>
+						</div>
+
+						<div data-slide-right class="contact__action">
+							<a href="#" class="contact__button _btn">
+								<span>CONTACT US</span>
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M7 17L17 7" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M7 7H17V17" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--======================= blog =======================-->
+			<section class="page__blog blog" id="blog">
+				<div class="blog__container">
+					<div class="blog__data">
+						<div data-slide-right class="blog__subtitle _subtitle">
+							<span>Our Blog</span>
+						</div>
+
+						<h2 data-slide-right class="blog__title _title-h2">
+							Latest News and Articles
+						</h2>
+					</div>
+
+					<div class="blog__content">
+						<article data-slide-left class="blog__card card-blog">
+							<a href="#" class="card-blog__image _ibg">
+								<img src="img/blog-1.jpg" alt="blog image">
+							</a>
+
+							<div class="card-blog__data">
+								<a href="#" class="card-blog__subtitle">
+									Interior Design
+								</a>
+
+								<a href="#" class="card-blog__title _title-h3">
+									Designer must be an interpreter
+								</a>
+
+								<div class="card-blog__description">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Adipiscing dui tellus commodo
+										convallis. Auctor eget orci pharetra non.
+									</p>
+								</div>
+							</div>
+						</article>
+
+						<article data-slide-right class="blog__card card-blog">
+							<a href="#" class="card-blog__image _ibg">
+								<img src="img/blog-2.jpg" alt="blog image">
+							</a>
+
+							<div class="card-blog__data">
+								<a href="#" class="card-blog__subtitle">
+									Interior Design
+								</a>
+
+								<a href="#" class="card-blog__title _title-h3">
+									12 Best Outdoor Furniture Ideas
+								</a>
+
+								<div class="card-blog__description">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Adipiscing dui tellus commodo
+										convallis. Auctor eget orci pharetra non.
+									</p>
+								</div>
+							</div>
+						</article>
+
+						<article data-slide-left class="blog__card card-blog">
+							<a href="#" class="card-blog__image _ibg">
+								<img src="img/blog-3.jpg" alt="blog image">
+							</a>
+
+							<div class="card-blog__data">
+								<a href="#" class="card-blog__subtitle">
+									Architecture
+								</a>
+
+								<a href="#" class="card-blog__title _title-h3">
+									10 Of The Unique Buildings
+								</a>
+
+								<div class="card-blog__description">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit. Adipiscing dui tellus commodo
+										convallis. Auctor eget orci pharetra non.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!--======================= footer =======================-->
+		<footer data-slide-up class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__left-side">
+						<a href="#" class="footer__logo">
+							<img src="img/footer-logo.svg" alt="logo">
+						</a>
+
+						<div class="footer__description">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit. Adipiscing dui tellus
+								commodo convallis. Auctor eget orci
+								pharetra non. Integer lorem in
+								scelerisque tortor dui tempor,
+								volutpat viverra faucibus.
+							</p>
+						</div>
+					</div>
+
+					<div class="footer__right-side">
+						<div class="footer__data">
+							<div class="footer__menu">
+								<h4 class="footer__title">
+									About
+								</h4>
+
+								<ul class="footer__links">
+									<li class="footer__item">
+										<a href="#" class="footer__link">About Us</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Services</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Portfolio</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Contact Us</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Blog</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Sho</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="footer__menu">
+								<h4 class="footer__title">
+									Office
+								</h4>
+
+								<ul class="footer__links">
+									<li class="footer__item">
+										<a href="#" class="footer__link">Scandinavian design</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Smart House</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Modern Design</a>
+									</li>
+
+									<li class="footer__item">
+										<a href="#" class="footer__link">Minimalist Design</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="footer__forms">
+							<h4 class="footer__title">Stay Tuned for upadates</h4>
+
+							<form action="" class="footer__form subscribe-form" id="subscribe-form">
+								<div class="subscribe-form__box" id="email">
+									<input type="email" name="user_email" class="subscribe-form__input" id="email" required
+										placeholder="">
+									<label for="email" class="subscribe-form__label">Email</label>
+								</div>
+
+								<button type="submit" class="subscribe-form__submit">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path d="M5 12H19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M12 5L19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</button>
+							</form>
+
+							<div class="footer__socials">
+								<a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path
+											d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+											stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path
+											d="M16 11.3701C16.1234 12.2023 15.9813 13.0523 15.5938 13.7991C15.2063 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4078 15.906C10.5771 15.7723 9.80976 15.3801 9.21484 14.7852C8.61992 14.1903 8.22773 13.4229 8.09407 12.5923C7.9604 11.7616 8.09207 10.91 8.47033 10.1584C8.84859 9.40691 9.45419 8.7938 10.201 8.4063C10.9478 8.0188 11.7978 7.87665 12.63 8.00006C13.4789 8.12594 14.2649 8.52152 14.8717 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+											stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M17.5 6.5H17.51" stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+									</svg>
+								</a>
+
+								<a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path
+											d="M22.54 6.42C22.4212 5.94541 22.1793 5.51057 21.8387 5.15941C21.498 4.80824 21.0708 4.55318 20.6 4.42C18.88 4 12 4 12 4C12 4 5.12 4 3.4 4.46C2.92925 4.59318 2.50198 4.84824 2.16135 5.19941C1.82072 5.55057 1.57879 5.98541 1.46 6.46C1.14521 8.20556 0.991235 9.97631 0.999999 11.75C0.988779 13.537 1.14277 15.3213 1.46 17.08C1.59096 17.5398 1.83831 17.9581 2.17814 18.2945C2.51798 18.6308 2.93882 18.8738 3.4 19C5.12 19.46 12 19.46 12 19.46C12 19.46 18.88 19.46 20.6 19C21.0708 18.8668 21.498 18.6118 21.8387 18.2606C22.1793 17.9094 22.4212 17.4746 22.54 17C22.8524 15.2676 23.0063 13.5103 23 11.75C23.0112 9.96295 22.8572 8.1787 22.54 6.42V6.42Z"
+											stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M9.75 15.02L15.5 11.75L9.75 8.47998V15.02Z" stroke="black" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+
+								<a href="https://twitter.com/" target="_blank" class="footer__social-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path
+											d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.00005C3 4.00005 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005V3.00005Z"
+											stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+
+								<a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path
+											d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+											stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__copy">
+					<p>Imah © 2022. All Rights Reseved.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!--======================= scroll-up =======================-->
+	<a href="#" class="scroll-up" id="scroll-up">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<path fill="none" d="M0 0h24v24H0z"></path>
+			<path
+				d="M11.9997 10.8284L7.04996 15.7782L5.63574 14.364L11.9997 8L18.3637 14.364L16.9495 15.7782L11.9997 10.8284Z"
+				fill="rgba(255,255,255,1)">
+			</path>
+		</svg>
+	</a>
+
+	<!--======================= swiper =======================-->
+	<!-- Connect the swiper library, here https://swiperjs.com/get-started -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+	<!-- Сonnect a separate swiper code file -->
+	<script src="js/swiper.js"></script>
+
+	<!--======================= js =======================-->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
+
+
+<!-- end -->
