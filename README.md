@@ -1,5 +1,5 @@
 # ImaH - responsive Landing page
-## Link to a GitHub Pages: [Arch Move](https://arturcodecraft.github.io/landing-imah/)
+## Link to a GitHub Pages: [ImaH](https://arturcodecraft.github.io/landing-imah/)
 ### Description:
 
 - First developed using the "Desktop First" methodology, then "Mobile Devices".
